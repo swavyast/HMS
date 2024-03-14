@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+div {
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+.floatright {
+	float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
+.vsep {
+	border-right: 1px solid rgb(192, 192, 192);
+	min-height: 10px;
+	z-index: 1000;
+}
+
+.card-shadow {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.steth {
+	margin-top: 42px;
+	margin-left: 50px;
+}
+
+.card img:not(.avatar>img) {
+	border: 1px solid black;
+	border-radius: 0px 10px 10px 0px;
+	width: 200px;
+}
+
+.form-div {
+	max-width: 500px;
+}
+
+footer div {
+	max-height: 25px;
+}
+
+footer div p {
+	/* display : flex;
+	flex-wrap : nowrap;
+	align-content: center; */
+	margin-top: -5px;
+}
+
+.mediHome {
+	font-style: italic;
+}
+
+.wmap {
+	position: relative;
+}
+
+#pin {
+	background-color: red;
+	opacity: 0.9;
+	background-clip: padding-box;
+	position: absolute;
+	top: 50%;
+	margin-left: 68%;
+	z-index: 1;
+	border-radius: 50%;
+	border-color: white;
+}
+
+.dp {
+	position: absolute;
+	z-index: 1;
+}
+
+.pngdp {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.avatar {
+	min-height: 20px;
+	background-image: linear-gradient(rgba(0, 128, 64, 0.8), rgba(0, 0, 0, 0.2), rgba(0, 128, 64, 0.9));
+	background-size: cover;
+	background: rgba(0, 128, 64, 0.1);
+	z-index: 1000;
+}
+
+.circle {
+	border-radius: 50%;
+}

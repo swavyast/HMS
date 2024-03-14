@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+}
+
+.myMenuBar {
+	list-style: none;
+	background: rgba(14, 102, 85, 0.9);
+}
+
+.myMenuBar li {
+	display: inline-block;
+	position: relative;
+}
+
+.myMenuBar li a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	padding: 15px 20px;
+	display: block;
+}
+
+.myMenuBar li ul.myDropdown li {
+	display: block;
+}
+
+.myMenuBar li ul.myDropdown {
+	width: 100%;
+	background: rgba(26, 82, 118, 1);
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+.myMenuBar li:hover {
+	background: rgba(46, 64, 83, 1);
+}
+
+.myMenuBar li:hover ul.myDropdown {
+	display: block;
+}
